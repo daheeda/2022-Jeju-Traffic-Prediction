@@ -12,24 +12,30 @@
   ![Python Version](https://img.shields.io/badge/Python-3.8.10-blue)
 </div>
 
-
 ---
-
-
 ## 🧐 About <a name = "about"></a>
 제주도 도로 교통량 예측 AI 알고리즘 개발  
 제주도의 교통 정보로부터 도로 교통량 회귀 예측
+
+## 🖥️ Development Environment
+```
+OS: Window11
+CPU: Intel i9-11900K
+RAM: 128GB
+GPU: NVIDIA GeFocrce RTX3090
+```
 
 ## 🔖 Project structure
 
 ```
 Project_folder/
-|- EDA/          # EDA code (notebooks)
-|- feature/      # feature selection & make feature (py)
-|- garbage/      # garbage
-|- jeju_data     # required Data (csv & parquet)
-|- model/        # model_list (ipynb)
+|- EDA/          # eda (ipynb)
+|- feature/      # feature engineering (py)
+|- garbage/      # garbage 
+|- jeju_data     # required data (csv & parquet)
+|- model/        # model test by feature (ipynb)
 |- reference/    # paper (pdf)
+|- main.py       # final model (py)
 ```
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
@@ -41,6 +47,7 @@ Setup your environement and install project dependencies
 python -m venv project
 project\Scripts\activate
 
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
@@ -156,5 +163,6 @@ Voting
 - ``박재열`` 
 - ``최다희`` [@ Dahee Choi](https://github.com/daheeda)
 - ``최새한`` [@ saehan](https://github.com/saehan-choi)
+
 
 

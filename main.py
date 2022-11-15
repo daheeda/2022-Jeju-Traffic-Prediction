@@ -54,4 +54,6 @@ for f in range(9):
 
 for fold in range(9):
     sample_submission['target'] += XGB_model[fold].predict(test)/9
+    
+sample_submission['target'] = round(sample_submission['target'])
 sample_submission.to_csv("./submit_xgb_9fold.csv", index=False)
