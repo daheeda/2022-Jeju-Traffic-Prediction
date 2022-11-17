@@ -160,7 +160,7 @@ Voting
 
 ### **Member**
 - ``곽명빈`` [@ Myungbin](https://github.com/Myungbin?tab=repositories)
-- ``박재열`` 
+- ``박재열`` [@ hitpjy](https://github.com/hitpjy)
 - ``최다희`` [@ Dahee Choi](https://github.com/daheeda)
 - ``최새한`` [@ saehan](https://github.com/saehan-choi)
 
