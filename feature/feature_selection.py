@@ -222,7 +222,7 @@ def road_name_set(train, test): # O
     train.loc[train['road_name'][(train['road_type'] == 3)].index, 'road_name'] = '국_지_도'
     test.loc[test['road_name'][(test['road_type'] == 3)].index, 'road_name'] = '국_지_도'
 
-    train['road_name_set'] = 'A'
+    train['road_name_set'] = '0'
     train.loc[train['road_name'].str.contains('국도'), 'road_name_set'] = 'A'
     train.loc[train['road_name'].str.contains('지방도'), 'road_name_set'] = 'A'
     train.loc[train['road_name'].str.contains('국_지_도'), 'road_name_set'] = 'A'
@@ -230,7 +230,7 @@ def road_name_set(train, test): # O
     train.loc[train['road_name'].str.contains('교'), 'road_name_set'] = 'C'
     
 
-    test['road_name_set'] = 'A'
+    test['road_name_set'] = '0'
     test.loc[test['road_name'].str.contains('국도'), 'road_name_set'] = 'A'
     test.loc[test['road_name'].str.contains('지방도'), 'road_name_set'] = 'A'
     test.loc[test['road_name'].str.contains('국_지_도'), 'road_name_set'] = 'A'
