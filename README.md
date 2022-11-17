@@ -55,7 +55,7 @@ python -m pip install -r requirements.txt
 
 ## 📖 Dataset
 **Data Source**  
-[Train Test Dateset](https://dacon.io/competitions/official/235985/overview/description) &nbsp;&nbsp; [국가공휴일](https://aspdotnet.tistory.com/2259)&nbsp;&nbsp; [Tour](https://www.data.go.kr/data/15004770/fileData.do)  
+[Train Test Dateset](https://dacon.io/competitions/official/235985/overview/description) &nbsp;&nbsp; [Tour](https://www.data.go.kr/data/15004770/fileData.do)  
 ```
 Dataset Info.
 
