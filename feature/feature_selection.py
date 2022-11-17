@@ -135,8 +135,12 @@ def make_dist(df): # V if null
 def make_cluster(train, test): # O
     train_c = train[['start_latitude', 'start_longitude']]
     test_c = test[['start_latitude', 'start_longitude']]
-    
-    k_mean = KMeans(n_clusters=4, init='k-means++', random_state=42)
+    cluster_centers = np.array([[33.26345514655621116162365069612860679626464843, 126.5203815031463392415389535017311573028564453],
+                                [33.37082277149481512878992361947894096374511718, 126.2976713570606790426609222777187824249267578],
+                                [33.48077890914120757770433556288480758666992187, 126.4946717292079512162672472186386585235595703],
+                                [33.41815597422977646147046471014618873596191406, 126.7739831436176700663054361939430236816406250]])
+
+    k_mean = KMeans(n_clusters=4, init=cluster_centers , random_state = 2)
     train['location_cluster'] = k_mean.fit_predict(train_c)
     test['location_cluster'] = k_mean.predict(test_c)
     
