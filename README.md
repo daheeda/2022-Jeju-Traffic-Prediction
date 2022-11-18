@@ -17,6 +17,7 @@
 제주도 도로 교통량 예측 AI 알고리즘 개발  
 제주도의 교통 정보로부터 도로 교통량 회귀 예측
 
+
 ## 🖥️ Development Environment
 ```
 OS: Window11
@@ -164,5 +165,8 @@ Voting
 - ``최다희`` [@ Dahee Choi](https://github.com/daheeda)
 - ``최새한`` [@ saehan](https://github.com/saehan-choi)
 
-
-
+## 😃 Result
+- **Public score** 2nd 3.07714 | **Private score** 4th 3.0852
+- 주최 : 제주 테크노파크, 제주특별자치도
+- 주관 : DACON
+- https://dacon.io/competitions/official/235985/overview/description
